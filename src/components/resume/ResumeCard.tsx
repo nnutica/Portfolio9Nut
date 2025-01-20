@@ -5,9 +5,11 @@ interface ResumeCardProps {
   title: string;
   subTitle: string;
   des: string;
+  des1?: string;
+  des2?: string;
 }
 
-const ResumeCard: React.FC<ResumeCardProps> = ({ badge, title, subTitle, des }) => {
+const ResumeCard: React.FC<ResumeCardProps> = ({ badge, title, subTitle, des, des1, des2 }) => {
   return (
     <div className="w-full py-6 flex flex-col gap-2.5 border-b-[1px] border-b-zinc-800">
       {badge === "" ? (
@@ -23,7 +25,9 @@ const ResumeCard: React.FC<ResumeCardProps> = ({ badge, title, subTitle, des }) 
         {title}
       </h2>
       <p className="text-sm text-[#999] -mt-2">{subTitle}</p>
-      <p className="text-base text-[#999] font-medium pr-10">{des}</p>
+      <p className="text-base text-[#999] font-medium pr-10 py-0.5">{des}</p>
+      <p className="text-base text-[#999] font-medium pr-10">{des1}</p>
+      <p className="text-base text-[#999] font-medium pr-10">{des2}</p>
     </div>
   );
 };
