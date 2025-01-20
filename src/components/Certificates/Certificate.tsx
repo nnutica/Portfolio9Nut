@@ -29,7 +29,7 @@ const Certificate = () => {
             title="February 1, 2024"
             subTitle="ChatGPT ช่วยทำวิจัยได้ไม่ต้องเหนื่อยแทบตาย (ในทุกขั้นตอน)"
             category="Technology, Chula Mooc"
-            link="https://ibb.co/BTrPqfG"
+            link="https://mycourseville-default.s3.ap-southeast-1.amazonaws.com/system_course_files/2022_2/36997/cvcert_usercert/certificate_36997_1124342-1124342-17067790272708.jpg"
 
           />
           <CertificateCard
