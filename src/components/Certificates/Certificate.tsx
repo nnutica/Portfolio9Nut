@@ -54,7 +54,7 @@ const Certificate = () => {
             image={BDev}
             title="September 22, 2022"
             subTitle="taken part in the course DevLab 3Open Access Program "
-            category="Travel"
+            category="Programming"
             link="https://www.borntodev.com/devlab/certificate/12adf97002e5ec56b9bb05a7a7d97d00"
           />
           <CertificateCard
@@ -75,7 +75,7 @@ const Certificate = () => {
             image={cap}
             title="October 17, 2024"
             subTitle="College Algebra With Python"
-            category="Travel"
+            category="Programming, Mathematics"
             link="https://www.freecodecamp.org/certification/nitinat/college-algebra-with-python-v8"
           />
           <CertificateCard
