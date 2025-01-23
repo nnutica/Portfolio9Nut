@@ -10,7 +10,7 @@ import RSDesign from "../../assets/certificate/ResponsiveWebDesign.png";
 import Fed from "../../assets/certificate/FED.png";
 import cap from "../../assets/certificate/CAP.png";
 import etda from "../../assets/certificate/Etda.jpg";
-import datagpt from "../../assets/certificate/datagpt.jpg";
+import datagpt from "../../assets/certificate/Datagpt.png";
 
 
 
