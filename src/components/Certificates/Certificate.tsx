@@ -10,6 +10,10 @@ import RSDesign from "../../assets/certificate/ResponsiveWebDesign.png";
 import Fed from "../../assets/certificate/FED.png";
 import cap from "../../assets/certificate/CAP.png";
 import etda from "../../assets/certificate/Etda.jpg";
+import datagpt from "../../assets/certificate/datagpt.jpg";
+
+
+
 const Certificate = () => {
   return (
     <div>
@@ -45,6 +49,12 @@ const Certificate = () => {
             subTitle="(Webinar) นำเสนออย่างไรโปรฉบับคนทำงานยุคใหม่สื่อสารง่าย เข้าใจเร็วด้วย Canva Presentation"
             category="Canva Presentation , Pitching"
             link="https://app.futureskill.co/api/certificate?courseId=665&userId=163361"
+          />
+          <CertificateCard
+            image={datagpt}
+            title="January 23, 2025"
+            subTitle="(Webinar) ทำงาน Data แบบมืออาชีพได้ง่ายขึ้นด้วย ChatGPT"
+            category="Data, ChatGPT, Technology"
           />
         </div>
 
@@ -84,6 +94,7 @@ const Certificate = () => {
             subTitle="BU X EDC Trainer"
             category="Technology"
           />
+          
         </div>
       </div>
     </div>
