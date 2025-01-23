@@ -55,6 +55,7 @@ const Certificate = () => {
             title="January 23, 2025"
             subTitle="(Webinar) ทำงาน Data แบบมืออาชีพได้ง่ายขึ้นด้วย ChatGPT"
             category="Data, ChatGPT, Technology"
+            link="https://app.futureskill.co/api/certificate?courseId=666&userId=163361"
           />
         </div>
 
