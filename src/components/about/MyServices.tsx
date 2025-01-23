@@ -19,7 +19,7 @@ const MyServices = () => {
       <ServicesCard
         icons={<SiJirasoftware />}
         title="Web Design"
-        subTitle="Design with Figma (Intermediate)"
+        subTitle="I can design UI using Figma, although it's not my strongest skill. However, I excel at translating existing designs into functional code."
       />
       <ServicesCard
         icons={<CiCalculator2 />}
