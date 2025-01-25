@@ -44,7 +44,8 @@ const Education = () => {
           badge="2019 - 2022"
           title="Udonpittayanukul School"
           subTitle="High School"
-          des="Mathematics, Science and Technology Competence Promotion Program GPA : 3.41"
+          des="Mathematics, Science and Technology Competence Promotion Program "
+          des1="GPA : 3.41"
         />
 
       </div>
