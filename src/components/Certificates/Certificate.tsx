@@ -11,6 +11,7 @@ import Fed from "../../assets/certificate/FED.png";
 import cap from "../../assets/certificate/CAP.png";
 import etda from "../../assets/certificate/Etda.jpg";
 import datagpt from "../../assets/certificate/Datagpt.png";
+import azure from "../../assets/certificate/azureapp.png";
 
 
 
@@ -95,7 +96,14 @@ const Certificate = () => {
             subTitle="BU X EDC Trainer"
             category="Technology"
           />
-          
+          <CertificateCard
+            image={azure}
+            title="February 8 , 2025"
+            subTitle="Get started with Azure App Service"
+            category="Technology"
+            link="https://school.borntodev.com/certificate/7xok6hMKhARn"
+          />
+
         </div>
       </div>
     </div>
