@@ -12,6 +12,7 @@ import cap from "../../assets/certificate/CAP.png";
 import etda from "../../assets/certificate/Etda.jpg";
 import datagpt from "../../assets/certificate/Datagpt.png";
 import azure from "../../assets/certificate/azureapp.png";
+import GenAI from "../../assets/certificate/Coursera GenAI.jpg";
 
 
 
@@ -102,6 +103,14 @@ const Certificate = () => {
             subTitle="Get started with Azure App Service"
             category="Technology"
             link="https://school.borntodev.com/certificate/7xok6hMKhARn"
+          />
+          <CertificateCard
+            image={GenAI}
+            title="March 29, 2025"
+            subTitle="GenAI for Cybersecurity Analysts"
+            category="Technology,Coursera,GenAI"
+            link="https://coursera.org/share/36a8bb74653a106a9eae084e6fc321b5"
+
           />
 
         </div>
