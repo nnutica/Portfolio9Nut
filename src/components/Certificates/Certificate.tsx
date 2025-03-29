@@ -59,6 +59,14 @@ const Certificate = () => {
             category="Data, ChatGPT, Technology"
             link="https://app.futureskill.co/api/certificate?courseId=666&userId=163361"
           />
+          <CertificateCard
+            image={GenAI}
+            title="March 29, 2025"
+            subTitle="GenAI for Cybersecurity Analysts"
+            category="Technology,Coursera,GenAI"
+            link="https://coursera.org/share/36a8bb74653a106a9eae084e6fc321b5"
+
+          />
         </div>
 
         {/* RightSide */}
@@ -104,14 +112,7 @@ const Certificate = () => {
             category="Technology"
             link="https://school.borntodev.com/certificate/7xok6hMKhARn"
           />
-          <CertificateCard
-            image={GenAI}
-            title="March 29, 2025"
-            subTitle="GenAI for Cybersecurity Analysts"
-            category="Technology,Coursera,GenAI"
-            link="https://coursera.org/share/36a8bb74653a106a9eae084e6fc321b5"
 
-          />
 
         </div>
       </div>
