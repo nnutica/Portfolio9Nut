@@ -13,6 +13,7 @@ import etda from "../../assets/certificate/Etda.jpg";
 import datagpt from "../../assets/certificate/Datagpt.png";
 import azure from "../../assets/certificate/azureapp.png";
 import GenAI from "../../assets/certificate/Coursera GenAI.jpg";
+import Java from "../../assets/certificate/java.png";
 
 
 
@@ -98,6 +99,13 @@ const Certificate = () => {
             subTitle="College Algebra With Python"
             category="Programming, Mathematics"
             link="https://www.freecodecamp.org/certification/nitinat/college-algebra-with-python-v8"
+          />
+          <CertificateCard
+            image={Java}
+            title="May 11, 2025"
+            subTitle="JavaScript Algorithms and Data Structures"
+            category="Technology, Programming"
+            link="https://www.freecodecamp.org/certification/nitinat/javascript-algorithms-and-data-structures-v8"
           />
           <CertificateCard
             image={etda}
