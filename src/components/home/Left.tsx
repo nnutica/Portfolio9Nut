@@ -2,8 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { BsCloudLightningFill, BsFacebook } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiYoutubemusic } from "react-icons/si";
-import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
 import CV from "../../assets/CV nitinat loruthai.pdf";
 import bannerImg from "../../assets/nutt.jpg";
 
