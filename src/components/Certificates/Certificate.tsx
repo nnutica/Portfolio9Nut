@@ -1,4 +1,4 @@
-import React from "react";
+
 import Title from "../home/Title";
 import CertificateCard from "./CertificateCard";
 import pythonGPT from "../../assets/certificate/PythonGPT.jpg";

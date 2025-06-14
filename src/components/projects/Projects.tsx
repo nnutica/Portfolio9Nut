@@ -1,10 +1,10 @@
-import React from "react";
-import certificate from "../../assets/certificate/frosch.jpg";
+
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
 import frontier from "../../assets/Projects/Frontier.png"
 import Calculator from "../../assets/Projects/Calculator.png"
-import SCL from "../../assets/Projects/SCL.jpg"
+import AChiraya from "../../assets/Projects/achiraya.png"
+
 import Etda from "../../assets/Projects/Etda.jpg"
 
 const Projects = () => {
@@ -37,6 +37,12 @@ const Projects = () => {
             category="Angular, Calculator, Frontend"
             image={Calculator}
             link="https://github.com/nnutica/Angular-calculator"
+          />
+          <ProjectsCard
+            title="Achiraya-PMtool"
+            category="NextJS, PMtool, Frontend,Firebase"
+            image={AChiraya}
+            link="https://achiraya-pmtool.vercel.app/"
           />
 
         </div>
