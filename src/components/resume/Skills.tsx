@@ -1,12 +1,12 @@
 
 import { SiArtstation } from "react-icons/si";
-import { FaFlag } from "react-icons/fa";
+
 import { BiCodeAlt } from "react-icons/bi";
 import { FaRegNewspaper } from "react-icons/fa6";
 import ResumeTitle from "./ResumeTitle";
 import Coding from "./Coding";
 import Knowledge from "./knowledge";
-import Language from "./Language";
+
 import Career from "./Career";
 
 const Skills = () => {
