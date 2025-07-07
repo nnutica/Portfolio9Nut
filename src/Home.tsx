@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { FaUser } from "react-icons/fa";
 import { IoIosPaper } from "react-icons/io";
 import { MdWork } from "react-icons/md";
+import { RiAwardFill } from "react-icons/ri";
+
 
 import { FaCertificate } from "react-icons/fa6";
 import Left from "./components/home/Left";
@@ -10,12 +12,14 @@ import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
 import Projects from "./components/projects/Projects";
 import Certificate from "./components/Certificates/Certificate";
+import { Activitie } from "./components/Activity/Activitie";
 
 const Home: React.FC = () => {
     const [about, setAbout] = useState<boolean>(true);
     const [resume, setResume] = useState<boolean>(false);
     const [projects, setProjects] = useState<boolean>(false);
     const [certificate, setCertificate] = useState<boolean>(false);
+    const [activity, setActivity] = useState<boolean>(false);
 
     return (
         <div className="w-full lgl:w-[85%] h-full lgl:h-[85%] bg-transparent text-white z-50 flex items-start justify-between p-4 lgl:p-0">
@@ -28,6 +32,7 @@ const Home: React.FC = () => {
                         setResume(false);
                         setProjects(false);
                         setCertificate(false);
+                        setActivity(false);
                     }}
                     className={`${about
                         ? "text-designColor"
@@ -46,6 +51,7 @@ const Home: React.FC = () => {
                         setResume(true);
                         setProjects(false);
                         setCertificate(false);
+                        setActivity(false);
                     }}
                     className={`${resume
                         ? "text-designColor"
@@ -64,6 +70,7 @@ const Home: React.FC = () => {
                         setResume(false);
                         setProjects(true);
                         setCertificate(false);
+                        setActivity(false);
                     }}
                     className={`${projects
                         ? "text-designColor"
@@ -75,6 +82,25 @@ const Home: React.FC = () => {
                         Projects
                     </span>
                 </span>
+                 {/* Activity Icon */}
+                <span
+                    onClick={() => {
+                        setAbout(false);
+                        setResume(false);
+                        setProjects(false);
+                        setCertificate(false);
+                        setActivity(true);
+                    }}
+                    className={`${activity
+                        ? "text-designColor"
+                        : "w-full h-6 text-textColor text-xl flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group"
+                        } w-full h-6 text-xl flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group`}
+                >
+                    <RiAwardFill />
+                    <span className="text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl absolute left-0 translate-x-8 group-hover:translate-x-12 opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
+                        Activity
+                    </span>
+                </span>
                 {/* Certificate Icon */}
                 <span
                     onClick={() => {
@@ -82,6 +108,7 @@ const Home: React.FC = () => {
                         setResume(false);
                         setProjects(false);
                         setCertificate(true);
+                        setActivity(false);
                     }}
                     className={`${certificate
                         ? "text-designColor"
@@ -93,6 +120,7 @@ const Home: React.FC = () => {
                         Certificates
                     </span>
                 </span>
+                
             </div>
             {/* ================= Left Icons Start here ====================== */}
             <div className="w-full lgl:w-[94%] h-full flex flex-col gap-6 lgl:gap-0 lgl:flex-row items-center">
@@ -106,6 +134,7 @@ const Home: React.FC = () => {
                         <Resume />
                         <Projects />
                         <Certificate />
+                        <Activitie />
                     </div>
                     {/* ======================== Smaller device content End ========================== */}
                     <div className="w-full h-[96%] hidden lgl:flex justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464]">
@@ -144,6 +173,15 @@ const Home: React.FC = () => {
                                 transition={{ duration: 0.5 }}
                             >
                                 <Certificate />
+                            </motion.div>
+                        )}
+                        {activity && (
+                            <motion.div
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ duration: 0.5 }}
+                            >
+                                <Activitie />
                             </motion.div>
                         )}
                     </div>

@@ -5,7 +5,7 @@ import frontier from "../../assets/Projects/Frontier.png"
 import Calculator from "../../assets/Projects/Calculator.png"
 import AChiraya from "../../assets/Projects/achiraya.png"
 import techcare from "../../assets/Projects/techcare.png"
-
+import { ActivitieCard } from "../Activity/ActivitieCard";
 import Etda from "../../assets/Projects/Etda.jpg"
 
 const Projects = () => {
@@ -50,6 +50,14 @@ const Projects = () => {
             category="NextJS, PMtool, Frontend,Firebase"
             image={AChiraya}
             link="https://achiraya-pmtool.vercel.app/"
+          />
+
+          <ActivitieCard
+            title="BU x ETDA UpSkill Digital Citizen  "
+            description="Leadership ,Social,Cyber Security"
+            date="2023"
+            image={Etda}
+            link="https://www.bu.ac.th/th/featured-stories/1613"
           />
 
         </div>
