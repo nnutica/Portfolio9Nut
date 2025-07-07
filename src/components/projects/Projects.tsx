@@ -5,8 +5,7 @@ import frontier from "../../assets/Projects/Frontier.png"
 import Calculator from "../../assets/Projects/Calculator.png"
 import AChiraya from "../../assets/Projects/achiraya.png"
 import techcare from "../../assets/Projects/techcare.png"
-import { ActivitieCard } from "../Activity/ActivitieCard";
-import Etda from "../../assets/Projects/Etda.jpg"
+
 
 const Projects = () => {
   return (
@@ -20,20 +19,13 @@ const Projects = () => {
             category="Website,CRUD, FullStack, Final Project"
             image={frontier}
             link="https://github.com/nnutica/Frontier"
-          />
-          <ProjectsCard
-            title="BU x ETDA UpSkill Digital Citizen  "
-            category="Leadership ,Social,Cyber Security"
-            image={Etda}
-            link="https://www.bu.ac.th/th/featured-stories/1613"
-          />
+          />         
           <ProjectsCard
             title="techcare System "
             category="Web Dev,Frontend,React"
             image={techcare}
             link=" https://techcaresystem.com"
           />
-
 
         </div>
 
@@ -52,13 +44,7 @@ const Projects = () => {
             link="https://achiraya-pmtool.vercel.app/"
           />
 
-          <ActivitieCard
-            title="BU x ETDA UpSkill Digital Citizen  "
-            description="Leadership ,Social,Cyber Security"
-            date="2023"
-            image={Etda}
-            link="https://www.bu.ac.th/th/featured-stories/1613"
-          />
+         
 
         </div>
       </div>

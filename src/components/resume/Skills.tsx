@@ -41,11 +41,7 @@ const Skills = () => {
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
 
-      {/* Languages */}
-      <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Languages" icon={<FaFlag />} />
-        <Language />
-      </div>
+     
 
 
       
