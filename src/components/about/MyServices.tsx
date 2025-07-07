@@ -2,7 +2,7 @@
 
 import { BiCodeAlt } from "react-icons/bi";
 import ServicesCard from "./ServicesCard";
-import { SiJirasoftware } from "react-icons/si";
+import { FaFigma } from "react-icons/fa6";
 import { CiCalculator2 } from "react-icons/ci";
 import { FaDatabase } from "react-icons/fa6";
 
@@ -17,7 +17,7 @@ const MyServices = () => {
         subTitle="Develop with MERN Stack or NextJS"
       />
       <ServicesCard
-        icons={<SiJirasoftware />}
+        icons={<FaFigma />}
         title="Web Design"
         subTitle="I can design UI using Figma, although it's not my strongest skill. However, I excel at translating existing designs into functional code."
       />
