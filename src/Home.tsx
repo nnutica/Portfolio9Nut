@@ -75,7 +75,7 @@ const Home: React.FC = () => {
                         Projects
                     </span>
                 </span>
-                {/* Blog Icon */}
+                {/* Certificate Icon */}
                 <span
                     onClick={() => {
                         setAbout(false);
