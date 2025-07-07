@@ -22,11 +22,13 @@ const Skills = () => {
       <div className="w-full h-full hidden lgl:flex justify-center items-center">
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
-      {/* Languages */}
+
+      {/* Knowledge */}
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Languages" icon={<FaFlag />} />
-        <Language />
+        <ResumeTitle title="Knowledge" icon={<FaRegNewspaper />} />
+        <Knowledge />
       </div>
+      
 
 
       <div className="col-span-9 md:col-span-4">
@@ -39,12 +41,14 @@ const Skills = () => {
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
 
-
-      {/* Knowledge */}
+      {/* Languages */}
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Knowledge" icon={<FaRegNewspaper />} />
-        <Knowledge />
+        <ResumeTitle title="Languages" icon={<FaFlag />} />
+        <Language />
       </div>
+
+
+      
     </div>
   );
 };
