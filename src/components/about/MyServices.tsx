@@ -5,6 +5,7 @@ import ServicesCard from "./ServicesCard";
 import { FaFigma } from "react-icons/fa6";
 import { CiCalculator2 } from "react-icons/ci";
 import { FaDatabase } from "react-icons/fa6";
+import { FaRobot } from "react-icons/fa";
 
 
 
@@ -14,11 +15,11 @@ const MyServices = () => {
       <ServicesCard
         icons={<BiCodeAlt />}
         title="Web Development"
-        subTitle="Develop with MERN Stack or NextJS"
+        subTitle="I can Develop websites using React, Next.js, and ViteJS. I can also create responsive designs with Tailwind CSS and Bootstrap, ensuring a seamless user experience across devices."
       />
       <ServicesCard
         icons={<FaFigma />}
-        title="Web Design"
+        title="UI Design"
         subTitle="I can design UI using Figma, although it's not my strongest skill. However, I excel at translating existing designs into functional code."
       />
       <ServicesCard
@@ -29,7 +30,13 @@ const MyServices = () => {
       <ServicesCard
         icons={<FaDatabase />}
         title="database design"
-        subTitle="I can design database structures for systems efficiently, ensuring scalability and organization."
+       subTitle="I design efficient and scalable database structures tailored to system requirements, ensuring data integrity, performance, and maintainability."
+      />
+      <ServicesCard
+        icons={<FaRobot />}
+        title="Automation testing"
+        subTitle="I can create and maintain automated test scripts for web applications using tools like Selenium, Playwright, or Cypress.
+This ensures consistent quality, faster testing cycles, and reduces manual errors."
       />
 
     </div>

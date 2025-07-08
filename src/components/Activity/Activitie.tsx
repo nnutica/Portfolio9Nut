@@ -23,7 +23,11 @@ export const Activitie: React.FC = () => {
           <ActivitieCard
             images={[Etda,Etda2,Etda3]} 
             title="BU x ETDA UpSkill Digital Citizen  "
-            description="โครงการ BU x EDC Trainer พัฒนาศักยภาพนักศึกษาสู่การเป็นผู้ถ่ายทอดความรู้ด้านทักษะดิจิทัล โดยโครงการนี้จัดอบรมหลักสูตร ETDA Digital Citizen Trainer มุ่งเน้นการพัฒนาทักษะที่จำเป็นสำหรับพลเมืองดิจิทัล ครอบคลุม 5 ด้านสำคัญ ได้แก่ อัตลักษณ์ดิจิทัล การใช้เทคโนโลยีดิจิทัลอย่างเหมาะสม การจัดการความปลอดภัยในโลกดิจิทัล การสื่อสารดิจิทัล และการรู้เท่าทันดิจิทัล โดยมีนักศึกษาเข้าร่วมโครงการทั้งสิ้น 62 คน"
+            description="This program was designed to enhance students' potential to become knowledge facilitators in digital skills. 
+            It included training in the ETDA Digital Citizen Trainer curriculum, which focuses on developing essential competencies for digital citizenship. 
+            The training covered five key areas: Digital Identity, 
+            Appropriate Use of Digital Technology, Digital Security Management, 
+            Digital Communication, and Digital Literacy. A total of 62 students participated in the program."
             date="07 November 2024"
             link="https://www.bu.ac.th/th/featured-stories/1613"
             autoPlay={true}
@@ -49,7 +53,11 @@ export const Activitie: React.FC = () => {
           <ActivitieCard
             images={[caster1,caster2]} 
             title="The Caster สร้างนักพากย์ โดยคนรักการพากย์ "
-            description="Participated in 'The Caster' competition, which is a contest to find a new FPS game caster. I advanced to the audition round, becoming one of the top 45 finalists that year. The event was also broadcast live on the FPS Thailand channel."
+            description="Participated in 'The Caster' competition, 
+            which is a contest to find a new FPS game caster.
+             I advanced to the audition round, 
+             becoming one of the top 45 finalists that year. 
+             The event was also broadcast live on the FPS Thailand channel."
             date="13 February 2023"
             link="https://youtu.be/5O2uVk8cd4I?si=EQN5YBOWhI0jYFlb&t=3260"
             autoPlay={true}

@@ -16,7 +16,7 @@ import html from "../../assets/skills/html.png";
 
 const Coding = () => {
     return (
-        <div className="col-span-9 md:col-span-4">
+        <div className="col-span-6 md:col-span-4">
 
             {/*Web Develop */}
             <div className="py-4">

@@ -3,31 +3,32 @@
 const Career = () => {
     return (
         <div className="py-4">
+             {/*Web Developer */}
             <div className="py-3 border-b-[1px] border-zinc-800">
                 <p className="text-base text-textColor -mb-1.5">
-                    Frontend Developer
+                    Web Developer 
                 </p>
                 <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-                    <span className="w-[85%] h-full absolute top-0 left-0 bg-designColor"></span>
+                    <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
                 </span>
             </div>
-            {/* Backend */}
+            {/*Mobile Application */}
             <div className="py-3 border-b-[1px] border-zinc-800">
                 <p className="text-base text-textColor -mb-1.5">
-                    Backend Developer
+                   Mobile (C# .NET MAUI)
                 </p>
                 <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-                    <span className="w-[70%] h-full absolute top-0 left-0 bg-designColor"></span>
+                    <span className="w-[60%] h-full absolute top-0 left-0 bg-designColor"></span>
                 </span>
             </div>
-            {/* Mobile Application */}
+            {/* QA Automate Tester */}
             <div className="py-3 border-b-[1px] border-zinc-800">
                 <p className="text-base text-textColor -mb-1.5">
-                    Mobile Application
+                    QA Automation
                 </p>
-                <p className="text-sm text-zinc-500">I'm learning</p>
+                
                 <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-                    <span className="w-[45%] h-full absolute top-0 left-0 bg-designColor"></span>
+                    <span className="w-[55%] h-full absolute top-0 left-0 bg-designColor"></span>
                 </span>
             </div>
             {/* UI Design */}

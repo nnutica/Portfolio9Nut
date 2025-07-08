@@ -16,13 +16,13 @@ const Projects = () => {
         <div className="px-6">
           <ProjectsCard
             title="Frontier Hotel Booking System"
-            category="Website,CRUD, FullStack, Final Project"
+            description="Full CRUD Website you can book hotel rooms and manage your bookings."
             image={frontier}
             link="https://github.com/nnutica/Frontier"
           />         
           <ProjectsCard
             title="techcare System "
-            category="Web Dev,Frontend,React"
+            description="This was my first real-world project, where I had the opportunity to design the UI for the team and also contributed to integrating backend data into the website. "
             image={techcare}
             link=" https://techcaresystem.com"
           />
@@ -33,13 +33,13 @@ const Projects = () => {
         <div className="px-6">
           <ProjectsCard
             title="Angular-Calculator"
-            category="Angular, Calculator, Frontend"
+            description="My first project using Angular, a simple calculator that performs basic arithmetic operations."
             image={Calculator}
             link="https://github.com/nnutica/Angular-calculator"
           />
           <ProjectsCard
             title="Achiraya-PMtool"
-            category="NextJS, PMtool, Frontend,Firebase"
+            description="This is My Personal Project Management Tool, designed to help users manage their projects efficiently. It includes features for task management, project tracking, and team collaboration."
             image={AChiraya}
             link="https://achiraya-pmtool.vercel.app/"
           />

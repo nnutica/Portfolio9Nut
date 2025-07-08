@@ -4,11 +4,12 @@ const AboutMe = () => {
     <div className="flex flex-col md:flex-row pb-6">
       <div className="w-full md:w-1/2 text-zinc-400 px-6 border-r-[1px] border-r-zinc-800 flex items-center">
         <div className="py-6">
-          <h2 className="font-semibold mb-1">Hello! I'm Nut </h2>
+          <h2 className="font-semibold mb-1 text-white">Hello! I'm Nut </h2>
           <p className="text-base leading-6 ">
-            I am a 3rd-year IT student passionate about Full-Stack Development, with strong skills in Frontend technologies like HTML,
-            CSS, JavaScript, and React. I also have experience with backend development using Node.js and databases.
-            I aim to contribute to innovative projects while expanding my skills in both frontend and full-stack development.
+            3rd-year IT student with hands-on experience in Full-Stack Development and QA Automation.
+Skilled in React, Next.js, Node.js, and database encryption.
+Experienced with Robot Framework for web testing and cross-platform app development using .NET MAUI.
+Eager to contribute to innovative projects and grow in both development and quality engineering roles.
           </p>
         </div>
       </div>
