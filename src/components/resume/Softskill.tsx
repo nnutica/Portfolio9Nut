@@ -1,4 +1,4 @@
-import { GiCheckMark } from "react-icons/gi";
+
 
 export const Softskill = () => {
     return (

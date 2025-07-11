@@ -26,15 +26,17 @@ const Skills = () => {
 
       {/* Knowledge */}
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Softskill" icon={<RiTeamFill />} />
-        <Softskill />
+        <ResumeTitle title="Coding" icon={<BiCodeAlt />} />
+        
+        <Coding />
+        
       </div>
       
 
 
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Coding" icon={<BiCodeAlt />} />
-        <Coding />
+        <ResumeTitle title="Softskill" icon={<RiTeamFill />} />
+        <Softskill />
       </div>
 
       {/* เส้นแบ่งซ้ายขวา */}

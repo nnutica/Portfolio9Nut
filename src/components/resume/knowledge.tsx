@@ -45,6 +45,12 @@ const knowledge = () => {
                 </span>
                 MERN Stack Development
             </li>
+            <li className="flex items-center gap-4 text-textColor">
+                <span className="text-designColor text-lg">
+                    <GiCheckMark />
+                </span>
+                Github 
+            </li>
         </ul>
     )
 }
