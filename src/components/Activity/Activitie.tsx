@@ -42,7 +42,7 @@ export const Activitie: React.FC = () => {
               organized by Thai Beverage Public Company Limited (ThaiBev). 
               The event was held under the theme of the 17 Sustainable Development Goals (SDGs), 
               which focus on addressing global challenges such as poverty, inequality, climate change, and peace."
-            date="07 November 2022"
+            date="28 September 2022"
             link="https://www.bu.ac.th/th/featured-stories/1613"
             autoPlay={true}
             autoPlayInterval={4000}
