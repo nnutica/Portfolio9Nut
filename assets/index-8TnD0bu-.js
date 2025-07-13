@@ -47,7 +47,7 @@ This ensures consistent quality, faster testing cycles, and reduces manual error
               sustainable development. Over 70% of the activities at the event were \r
               organized by Thai Beverage Public Company Limited (ThaiBev). \r
               The event was held under the theme of the 17 Sustainable Development Goals (SDGs), \r
-              which focus on addressing global challenges such as poverty, inequality, climate change, and peace.`,date:"07 November 2024",link:"https://www.bu.ac.th/th/featured-stories/1613",autoPlay:!0,autoPlayInterval:4e3})]}),h.jsx("div",{className:"px-6",children:h.jsx(wa,{images:[N3,E3],title:"The Caster สร้างนักพากย์ โดยคนรักการพากย์ ",description:`Participated in 'The Caster' competition, \r
+              which focus on addressing global challenges such as poverty, inequality, climate change, and peace.`,date:"28 September 2022",link:"https://www.bu.ac.th/th/featured-stories/1613",autoPlay:!0,autoPlayInterval:4e3})]}),h.jsx("div",{className:"px-6",children:h.jsx(wa,{images:[N3,E3],title:"The Caster สร้างนักพากย์ โดยคนรักการพากย์ ",description:`Participated in 'The Caster' competition, \r
             which is a contest to find a new FPS game caster.\r
              I advanced to the audition round, \r
              becoming one of the top 45 finalists that year. \r
