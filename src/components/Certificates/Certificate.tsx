@@ -14,6 +14,7 @@ import datagpt from "../../assets/certificate/Datagpt.png";
 import azure from "../../assets/certificate/azureapp.png";
 import GenAI from "../../assets/certificate/Coursera GenAI.jpg";
 import Java from "../../assets/certificate/java.png";
+import gemini from "../../assets/certificate/gemini.png";
 
 
 
@@ -66,6 +67,14 @@ const Certificate = () => {
             subTitle="GenAI for Cybersecurity Analysts"
             category="Technology,Coursera,GenAI"
             link="https://coursera.org/share/36a8bb74653a106a9eae084e6fc321b5"
+
+          />
+           <CertificateCard
+            image={gemini}
+            title="September 12, 2025"
+            subTitle="Gemini Certified Educator"
+            category="Technology,Google,GenAI"
+            link="https://edu.google.accredible.com/5032da4a-03a3-4018-849f-3e381b2f6ea3?key=c2b3c31ca0b9d24d9ab0aeaddbeb8befeabc3adb79c76971e6bf78e338d68c52"
 
           />
         </div>

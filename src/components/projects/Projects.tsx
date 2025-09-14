@@ -5,7 +5,7 @@ import frontier from "../../assets/Projects/Frontier.png"
 import Calculator from "../../assets/Projects/Calculator.png"
 import AChiraya from "../../assets/Projects/achiraya.png"
 import techcare from "../../assets/Projects/techcare.png"
-
+import afterclass from "../../assets/Projects/afterclass.png"
 
 const Projects = () => {
   return (
@@ -25,6 +25,12 @@ const Projects = () => {
             description="This was my first real-world project, where I had the opportunity to design the UI for the team and also contributed to integrating backend data into the website. "
             image={techcare}
             link=" https://techcaresystem.com"
+          />
+           <ProjectsCard
+            title="afterclass Landing Page"
+            description=" Designed and developed a modern Landing Page to showcase a bar and its signature menu as part of a Bartender course project, with a focus on contemporary UI design. "
+            image={afterclass}
+            link="https://after-class-one.vercel.app/"
           />
 
         </div>
