@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div className="py-6">
           <h2 className="font-semibold mb-1 text-white">Hello! I'm Nut </h2>
           <p className="text-base leading-6 ">
-            3rd-year IT student with hands-on experience in 
+            4TH-year IT student with hands-on experience in 
            <span className="text-green-400"> Full-Stack Development </span>  
 Skilled in <span className="text-blue-400">React,</span> 
 <span className="text-zinc-200">Next.js,</span>
