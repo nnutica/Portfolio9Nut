@@ -20,8 +20,8 @@ Eager to contribute to innovative projects and grow in both development and qual
       <div className="w-full md:w-1/2 p-6">
         <ul className="flex flex-col gap-1">
           <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">Age:</span>
-            21
+            <span className="aboutRightLiSpan">Birthday:</span>
+            Feb 17, 2004
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Study:</span>
