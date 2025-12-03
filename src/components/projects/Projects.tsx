@@ -6,6 +6,7 @@ import Calculator from "../../assets/Projects/Calculator.png"
 import AChiraya from "../../assets/Projects/achiraya.png"
 import techcare from "../../assets/Projects/techcare.png"
 import afterclass from "../../assets/Projects/afterclass.png"
+import righthere from "../../assets/Projects/righthere.jpg"
 
 const Projects = () => {
   return (
@@ -48,6 +49,14 @@ const Projects = () => {
             description="This is My Personal Project Management Tool, designed to help users manage their projects efficiently. It includes features for task management, project tracking, and team collaboration."
             image={AChiraya}
             link="https://achiraya-pmtool.vercel.app/"
+          />
+           <ProjectsCard
+            title="RightHere V1.0"
+            description="This is my AI-powered emotional journaling tool.
+Users can write their diary, and the AI analyzes their feelings, mood, keywords, and sentiment score.
+Designed with a Pixel RPG style to make reflection fun and engaging."
+            image={righthere}
+            link="https://righthere-v1.vercel.app/"
           />
 
          

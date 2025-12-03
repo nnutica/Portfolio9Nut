@@ -1,18 +1,18 @@
 import Codebadge from "./Codebadge";
-import Js from "../../assets/skills/js.png";
-import react from "../../assets/skills/react.png";
-import csharp from "../../assets/skills/csharp.png";
-import python from "../../assets/skills/python.png";
-import dotnet from "../../assets/skills/dotnet.png";
-import vitejs from "../../assets/skills/vitejs.png";
-import ts from "../../assets/skills/ts.png";
-import nextjs from "../../assets/skills/nextjs.png";
-import angular from "../../assets/skills/angular.png";
-import express from "../../assets/skills/express-js.png";
-import tailwind from "../../assets/skills/tailwindcss.png";
-import antd from "../../assets/skills/antd.png";
-import mui from "../../assets/skills/mui.png";
-import html from "../../assets/skills/html.png";
+import Js from "../../assets/Skills/js.png";
+import react from "../../assets/Skills/react.png";
+import csharp from "../../assets/Skills/csharp.png";
+import python from "../../assets/Skills/python.png";
+import dotnet from "../../assets/Skills/dotnet.png";
+import vitejs from "../../assets/Skills/vitejs.png";
+import ts from "../../assets/Skills/ts.png";
+import nextjs from "../../assets/Skills/nextjs.png";
+import angular from "../../assets/Skills/angular.png";
+import express from "../../assets/Skills/express-js.png";
+import tailwind from "../../assets/Skills/tailwindcss.png";
+import antd from "../../assets/Skills/antD.png";
+import mui from "../../assets/Skills/mui.png";
+import html from "../../assets/Skills/html.png";
 
 const Coding = () => {
     return (
