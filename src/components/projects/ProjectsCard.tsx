@@ -3,7 +3,7 @@ import React from "react";
 interface ProjectsCardProps {
   image: string;
   title: string;
-  description: string;
+  description: string | React.ReactNode;
   link?: string;
 }
 

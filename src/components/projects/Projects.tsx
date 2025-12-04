@@ -23,7 +23,13 @@ const Projects = () => {
           />         
           <ProjectsCard
             title="techcare System "
-            description="This was my first real-world project, where I had the opportunity to design the UI for the team and also contributed to integrating backend data into the website. "
+            description={
+              <>
+                This was my first real-world project, where I had the opportunity 
+                to design the UI for the team and also contributed to integrating backend data into the website.
+                <p><span className="text-red-500"> “The server hosting has now been migrated to a new link.</span> </p>
+              </>
+            }
             image={techcare}
             link=" https://techcaresystem.com"
           />
