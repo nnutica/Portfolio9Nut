@@ -4,6 +4,8 @@ import Language from "./Language";
 import { FaFlag } from "react-icons/fa";
 import { GiGraduateCap } from "react-icons/gi";
 import ResumeCard from "./ResumeCard";
+import Workexp from "./Workexp";
+import { MdWorkHistory } from "react-icons/md";
 
 const Education = () => {
   return (
@@ -11,7 +13,7 @@ const Education = () => {
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Education" icon={<GiGraduateCap />} />
         <ResumeCard
-          badge=""
+          badge="2022 - May 2026 (Expected)"
           title="Bangkok University"
           subTitle="University Education"
           des="Faculty of Information Technology and Innovation Information Technology  "
@@ -26,13 +28,19 @@ const Education = () => {
           des1="GPA : 3.41"
         />
 
+        <div className="mt-4">
+          <ResumeTitle title="Languages" icon={<FaFlag />} />
+          <Language />
+        </div>
+
       </div>
        <div className="w-full h-full hidden lgl:flex justify-center items-center">
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Languages" icon={<FaFlag />} />
-        <Language />
+        <ResumeTitle title="Work Experience" icon={<MdWorkHistory />} />    
+            <Workexp />    
+
       </div>
      
       

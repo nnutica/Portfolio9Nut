@@ -49,6 +49,54 @@ const Career = () => {
                             </li>
                             </ul>
             </div>
+             {/*Backend Developer */}
+            <div className="py-2 border-b-[1px] border-zinc-800">
+                
+                <p className="text-white text-base mb-1 flex items-start gap-2 ">
+                    <span className="text-designColor text-xl">
+                 <MdWebAsset />
+                </span>
+                Backend Developer  
+                </p>
+                 <ul className="py-2 flex flex-col gap-2 ">
+                <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                                RESTful API Development & CRUD Operations
+                            </li>
+                            <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                               Database Management (SQL)
+                            </li>
+                            <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                             API Testing & Documentation
+                            </li>
+                            <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                             NodeJS (Express & NestJS Frameworks)
+                            </li>
+                            <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                                Authentication & Authorization  
+                            </li>
+                             <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                                ORM (Object-Relational Mapping)
+                            </li>
+                            </ul>
+            </div>
             {/*Mobile Application */}
             <div className="py-3 border-b-[1px] border-zinc-800">
                 <p className="text-white text-base mb-1 flex items-center gap-2">

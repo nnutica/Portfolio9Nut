@@ -7,6 +7,7 @@ import AChiraya from "../../assets/Projects/achiraya.png"
 import techcare from "../../assets/Projects/techcare.png"
 import afterclass from "../../assets/Projects/afterclass.png"
 import righthere from "../../assets/Projects/righthere.jpg"
+import righthere_mb from "../../assets/Projects/righthere_mb.png"
 
 const Projects = () => {
   return (
@@ -39,6 +40,14 @@ const Projects = () => {
             image={afterclass}
             link="https://after-class-one.vercel.app/"
           />
+           <ProjectsCard
+            title="RightHere V1.0"
+            description="This is my AI-powered emotional journaling tool.
+Users can write their diary, and the AI analyzes their feelings, mood, keywords, and sentiment score.
+Designed with a Pixel RPG style to make reflection fun and engaging."
+            image={righthere}
+            link="https://righthere-v1.vercel.app/"
+          />
 
         </div>
 
@@ -56,13 +65,14 @@ const Projects = () => {
             image={AChiraya}
             link="https://achiraya-pmtool.vercel.app/"
           />
-           <ProjectsCard
-            title="RightHere V1.0"
-            description="This is my AI-powered emotional journaling tool.
-Users can write their diary, and the AI analyzes their feelings, mood, keywords, and sentiment score.
-Designed with a Pixel RPG style to make reflection fun and engaging."
-            image={righthere}
-            link="https://righthere-v1.vercel.app/"
+          
+          <ProjectsCard
+            title="RightHere Mobile App"
+           description="An AI-powered emotional journaling app designed with a friendly,
+            character-driven UI to make mental health tracking engaging. Developed using .NET MAUI for a cross-platform experience, it features AI sentiment analysis (Gemini & Hugging Face) and a Next.js Backoffice for centralized management. 
+           It transforms daily reflection into a supportive and intuitive journey. "
+            image={righthere_mb}
+            link=" https://nnutica.itch.io/righthere-demo"
           />
 
          

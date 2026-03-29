@@ -27,26 +27,17 @@ const Skills = () => {
       {/* Knowledge */}
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Coding" icon={<BiCodeAlt />} />
-        
         <Coding />
-        
-      </div>
-      
 
-
-      <div className="col-span-9 md:col-span-4">
+        <div className="mt-4">
         <ResumeTitle title="Softskill" icon={<RiTeamFill />} />
         <Softskill />
-      </div>
+        </div>
 
-      {/* เส้นแบ่งซ้ายขวา */}
-      <div className="w-full h-full hidden lgl:flex justify-center items-center">
-        <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
-      </div>
-      {/* Knowledge */}
-      <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Knowledge" icon={<FaRegNewspaper />} />
-        <Knowledge />
+        <div className="mt-8">
+          <ResumeTitle title="Knowledge" icon={<FaRegNewspaper />} />
+          <Knowledge />
+        </div>
       </div>
 
      

@@ -13,11 +13,11 @@ const ResumeCard: React.FC<ResumeCardProps> = ({ badge, title, subTitle, des, de
   return (
     <div className="w-full py-6 flex flex-col gap-2.5 border-b-[1px] border-b-zinc-800">
       {badge === "" ? (
-        <h6 className="w-28 text-center text-sm py-[1px] text-designColor border-[1px] border-designColor rounded-sm">
-          2022-Present
+        <h6 className="w-fit min-w-24 px-2 text-center text-sm py-[1px] whitespace-nowrap text-designColor border-[1px] border-designColor rounded-sm">
+          Jan2026-Present
         </h6>
       ) : (
-        <h6 className="w-24 text-center text-sm py-[1px] text-[#999] border-[1px] border-zinc-600 rounded-sm">
+        <h6 className="w-fit min-w-24 px-2 text-center text-sm py-[1px] whitespace-nowrap text-[#999] border-[1px] border-zinc-600 rounded-sm">
           {badge}
         </h6>
       )}
