@@ -13,8 +13,8 @@ function Workexp() {
         />
         <ResumeCard
           badge="Dec2023-Jan2025"
-          title="Techcare System "
-          subTitle="Frontend Developer"
+          title="Frontend Developer"
+          subTitle="Techcare System"
           des="Developed the Frontend UI of a web application using Next.js. Integrated data from Strapi CMS to dynamically display content on the website"
           des1="TechStack : Next.js, Strapi CMS, Tailwind CSS"
         />
