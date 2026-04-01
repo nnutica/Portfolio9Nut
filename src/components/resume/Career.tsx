@@ -3,6 +3,8 @@ import { GiCheckMark } from "react-icons/gi";
 import { FaMobileAlt } from "react-icons/fa";
 import { FaRobot } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
+import { FaCloud } from "react-icons/fa";
+
 
 const Career = () => {
     return (
@@ -161,6 +163,42 @@ const Career = () => {
                                 </span>
                                Appium - Mobile Testing
                             </li>    
+                            </ul>
+            </div>
+            {/* Cloud Computing (DevOps) */}
+            <div className="py-3 border-b-[1px] border-zinc-800">
+                <p className="text-white text-base mb-1 flex items-center gap-2">
+                    <span className="text-designColor text-xl">
+                 <FaCloud />
+                </span>
+                Cloud Computing (DevOps)
+                </p>
+                
+                <ul className="py-2 flex flex-col gap-2 ">
+                <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                              Azure DevOps - CI/CD Pipeline
+                            </li>
+                            <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                               Basic AI Automation
+                            </li>  
+                            <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                               Docker - Containerization
+                            </li> 
+                             <li className="flex items-center gap-4 text-slate-300 text-sm">
+                                <span className="text-designColor text-md">
+                                    <GiCheckMark />
+                                </span>
+                              Access Restrictions (Firewall Rules)
+                            </li>       
                             </ul>
             </div>
             {/* UI Design */}
