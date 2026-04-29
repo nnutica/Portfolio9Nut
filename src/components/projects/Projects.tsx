@@ -17,11 +17,20 @@ const Projects = () => {
         {/* LeftSide */}
         <div className="px-6">
           <ProjectsCard
-            title="Frontier Hotel Booking System"
-            description="Full CRUD Website you can book hotel rooms and manage your bookings."
-            image={frontier}
-            link="https://github.com/nnutica/Frontier"
-          />         
+            title="RightHere V1.0"
+            description="This is my AI-powered emotional journaling tool.
+Users can write their diary, and the AI analyzes their feelings, mood, keywords, and sentiment score.
+Designed with a Pixel RPG style to make reflection fun and engaging."
+            image={righthere}
+            link="https://righthere-v1.vercel.app/"
+          />
+          <ProjectsCard
+            title="afterclass Landing Page"
+            description=" Designed and developed a modern Landing Page to showcase a bar and its signature menu as part of a Bartender course project, with a focus on contemporary UI design. "
+            image={afterclass}
+            link="https://after-class-one.vercel.app/"
+          />
+                  
           <ProjectsCard
             title="techcare System "
             description={
@@ -34,38 +43,24 @@ const Projects = () => {
             image={techcare}
             link=" https://techcaresystem.com"
           />
-           <ProjectsCard
-            title="afterclass Landing Page"
-            description=" Designed and developed a modern Landing Page to showcase a bar and its signature menu as part of a Bartender course project, with a focus on contemporary UI design. "
-            image={afterclass}
-            link="https://after-class-one.vercel.app/"
-          />
-           <ProjectsCard
-            title="RightHere V1.0"
-            description="This is my AI-powered emotional journaling tool.
-Users can write their diary, and the AI analyzes their feelings, mood, keywords, and sentiment score.
-Designed with a Pixel RPG style to make reflection fun and engaging."
-            image={righthere}
-            link="https://righthere-v1.vercel.app/"
-          />
-
+           
+           
+      <ProjectsCard
+            title="Frontier Hotel Booking System"
+            description="Full CRUD Website you can book hotel rooms and manage your bookings."
+            image={frontier}
+            link="https://github.com/nnutica/Frontier"
+          />  
         </div>
 
         {/* Rightside */}
         <div className="px-6">
-          <ProjectsCard
-            title="Angular-Calculator"
-            description="My first project using Angular, a simple calculator that performs basic arithmetic operations."
-            image={Calculator}
-            link="https://github.com/nnutica/Angular-calculator"
-          />
-          <ProjectsCard
+           <ProjectsCard
             title="Achiraya-PMtool"
             description="This is My Personal Project Management Tool, designed to help users manage their projects efficiently. It includes features for task management, project tracking, and team collaboration."
             image={AChiraya}
             link="https://achiraya-pmtool.vercel.app/"
           />
-          
           <ProjectsCard
             title="RightHere Mobile App"
            description="An AI-powered emotional journaling app designed with a friendly,
@@ -74,6 +69,15 @@ Designed with a Pixel RPG style to make reflection fun and engaging."
             image={righthere_mb}
             link=" https://nnutica.itch.io/righthere-demo"
           />
+          <ProjectsCard
+            title="Angular-Calculator"
+            description="My first project using Angular, a simple calculator that performs basic arithmetic operations."
+            image={Calculator}
+            link="https://github.com/nnutica/Angular-calculator"
+          />
+         
+          
+          
 
          
 
