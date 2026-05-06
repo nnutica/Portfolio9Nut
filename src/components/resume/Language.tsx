@@ -12,7 +12,7 @@ const Language = () => {
                 {/* English */}
                 <div className="py-3">
                     <p className="text-base text-textColor -mb-1.5">English</p>
-                    <p className="text-sm text-zinc-500">Intermediate</p>
+                    <p className="text-sm text-zinc-500">Intermediate | TOEIC 810 (March 2023)</p>
                     <span className="w-full bg-zinc-600 h-1 inline-flex relative">
                         <span className="w-[70%] h-full absolute top-0 left-0 bg-designColor"></span>
                     </span>
