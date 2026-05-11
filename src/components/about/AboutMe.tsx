@@ -29,7 +29,7 @@ Eager to contribute to innovative projects and grow in both development and qual
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Address:</span>
-            Rangsit, Pathum Thani
+           Ladprao, Bangkok
           </li>
         </ul>
       </div>
