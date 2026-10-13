@@ -16,9 +16,10 @@ const Education = () => {
           badge="2022 - May 2026 (Expected)"
           title="Bangkok University"
           subTitle="University Education"
-          des="Faculty of Information Technology and Innovation Information Technology  "
-          des1="Scholarship :ทุนเพชรในชัยพฤกษ์ 100%"
-          des2="GPA :3.78"
+          des="Faculty of Information Technology and Innovation Information Technology "
+          des1="First Class Honors"
+          des2="Scholarship :ทุนเพชรในชัยพฤกษ์ 100%"
+          des3="GPA :3.79"
         />
         <ResumeCard
           badge="2019 - 2022"
